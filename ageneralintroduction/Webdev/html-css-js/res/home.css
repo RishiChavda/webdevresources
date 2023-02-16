@@ -1,0 +1,28 @@
+body{margin:0; padding:0; width:100%; min-width:300px; height:100%; wrap-word:break-word; overflow-y:auto; overflow-x:hidden;}
+body::selection{background-color:#a8d1ff; color:#333333;}
+::-moz-selection{background-color:#a8d1ff; color:#333333;}
+a{text-decoration:none; color:#333333; font-size:15px; wrap-word:break-word; border:none;}
+div{wrap-word:break-word;}
+span{wrap-word:break-word;}
+
+#back{position:fixed; margin:0; top:0; left:0; padding:0; width:100%; min-width:300px; height:100%; background:url(back.png) no-repeat center center fixed; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover; z-index:-1;}
+
+#main{margin:0; top:0; left:0; padding:0; width:100%; height:auto; z-index:10000;}
+#main #top{width:auto; height:auto; min-height:100%; padding:9% 20px 5px 20px; background-color:rgba(51, 108, 166, 0.2); text-align:center; overflow:hidden;}
+#main #top #logo{width:auto; height:auto; padding:20px 10px 10px 10px; text-align:center;}
+#main #top #logo img{width:15%; height:auto; min-width:150px; border-radius:10000px;}
+#main #top #name{width:auto; height:auto; padding:10px 10px 5px 10px; color:#ffffff; font-family:'Oswald'; font-size:80px; text-align:center; cursor:default;}
+#main #top #scrolly{margin-top:12%; width:auto; height:auto; padding:10px; text-align:center;}
+#main #top #scrolly img{margin:5px; width:20px; height:auto; padding:10px; color:#ffffff; font-family:'Oswald'; font-size:12px; text-align:center; border:3px solid #ffffff; border-radius:10000px; opacity:0.3; filter:alpha(opacity=40); -webkit-transition: opacity 300ms ease-out; -moz-transition: opacity 300ms ease-out; -o-transition: opacity 300ms ease-out; transition: opacity 300ms ease-out;}
+#main #top #scrolly img:hover{opacity:1; filter:alpha(opacity=100);}
+
+#main .section{width:auto; height:auto; padding:20px 3% 20px 3%; background-color:#ffffff; text-align:center; vertical-align:top;}
+#main .section:nth-child(even){background:#ffffff;}
+#main .section:nth-child(odd){background:#333333;}
+#main .section table{width:100%; text-align:center; color:#ffffff;}
+#main .section #header{margin:10px 10%; width:auto; height:auto; padding:20px 10px; text-align:center; border-bottom:1px solid rgba(51, 108, 166, 0.8);}
+#main .section #header #title{width:auto; height:auto; padding:10px; color:rgba(51, 108, 166, 0.8); font-family:'Open Sans'; font-weight:300; font-size:50px;}
+#main .section #h 	eader #subtitle{width:auto; height:auto; padding:10px; color:rgba(51, 108, 166, 0.9); font-family:'Lato'; font-weight:300; font-size:20px;}
+#main .section #about{width:20%; height:auto; padding:100px 20px; color:#333333; font-family:'Open Sans'; font-weight:300; font-size:15px; text-align:left; vertical-align:top; display:inline-block;}
+#main .section #face{width:auto; height:auto; text-align:center;}
+#main .section #face img{width:150px; height:auto; border-radius:10000px;}

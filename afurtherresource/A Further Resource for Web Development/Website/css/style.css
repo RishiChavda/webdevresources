@@ -1,0 +1,106 @@
+body{margin:0; width:100%; min-width:300px; height:auto; padding:0; background-color:#eeeeee; word-wrap:break-word;}
+a{color:#336ca6; text-decoration:none;}
+form{margin:0; padding:0;}
+#page{width:auto; height:auto; padding:0; text-align:left;}
+#page .error{margin:5px; width:auto; height:auto; padding:5px; background-color:#a81111; color:#ffffff; font-family:'Open Sans'; font-size:15px; text-align:center;}
+#page .success{margin:5px; width:auto; height:auto; padding:5px; background-color:#7cca6c; color:#ffffff; font-family:'Open Sans'; font-size:15px; text-align:center;}
+#page #topbar{top:0; left:0; width:auto; height:auto; padding:10px 5%; background-color:#336ca6; border-top:7px solid #2d5f92; vertical-align:middle;}
+#page #topbar #logo{width:auto; height:auto; text-align:left; vertical-align:middle;}
+#page #topbar #logo a{width:auto; height:auto; padding:5px 5px 10px 5px; color:#ffffff; font-family:'Novecentosanswide-Bold'; font-size:20px; text-align:left; text-decoration:none; letter-spacing:0.5px; vertical-align:middle; display:inline-block;}
+#page #topbar #account{margin-left:10px; float:right; width:auto; height:auto; padding:10px; background-color:#336ca6; text-align:center; vertical-align:middle; -webkit-transition:background-color 500ms ease-out; -moz-transition:background-color 500ms ease-out; -o-transition:background-color 500ms ease-out; transition:background-color 500ms ease-out;}
+#page #topbar #account:hover{background-color:#2d5f92;}
+#page #topbar #account:active{background-color:#21456a;}
+#page #topbar #account img{width:19px; height:auto; padding:0;}
+#page #topbar #shoppingcart{float:right; width:auto; height:auto; padding:5px; background-color:#336ca6; color:#ffffff; font-family:'Novecentosanswide-Bold'; font-size:10px; text-align:center; vertical-align:top; -webkit-transition:background-color 500ms ease-out; -moz-transition:background-color 500ms ease-out; -o-transition:background-color 500ms ease-out; transition:background-color 500ms ease-out;}
+#page #topbar #shoppingcart a{color:#ffffff; font-family:'Novecentosanswide-Bold'; font-size:12px; text-align:center; vertical-align:middle;}
+#page #topbar #shoppingcart:hover{background-color:#2d5f92;}
+#page #topbar #shoppingcart:active{background-color:#21456a;}
+#page #topbar #shoppingcart img{width:20px; height:auto; padding:0;}
+#page #navbar{top:0; left:0; width:auto; height:auto; padding:0px 5%; background-color:#333333; vertical-align:middle; text-align:left;}
+#page #navbar #menu{width:auto; height:auto; background-color:#333333; vertical-align:middle;}
+#page #navbar #menu .link{width:auto; height:auto; padding:15px 10px; background-color:#333333; color:#ffffff; font-family:'Open Sans'; font-size:12px; font-weight:500; display:inline-block; text-decoration:none; -webkit-transition:background-color 500ms ease-out; -moz-transition:background-color 500ms ease-out; -o-transition:background-color 500ms ease-out; transition:background-color 500ms ease-out;}
+#page #navbar #menu .link:hover{background-color:#222222;}
+#page #main{width:auto; height:auto; padding:15px 5%; background-color:#ffffff; text-align:center; vertical-align:top;}
+#page #main #title{width:auto; height:auto; padding:10px; color:#555555; font-family:'Arial'; font-size:25px; border-bottom:1px solid #dddddd; text-align:center;}
+#page #main #about{width:60%; height:auto; padding:0; text-align:center; vertical-align:middle; display:inline-block;}
+#page #main #about #text{width:auto; height:auto; padding:20px; vertical-align:middle; display:inline-block;}
+#page #main #about #title{width:auto; height:auto; padding:10px; font-family:'Open Sans'; font-weight:400; font-size:18px; color:#333333; text-align:center; border:none;}
+#page #main #about #title::selection{background:#333333; color:#336ca6;}
+#page #main #about #title::-moz-selection{background:#333333; color:#336ca6;}
+#page #main #about #description{width:auto; height:auto; padding:10px; font-family:'Open Sans'; font-weight:400; font-size:13px; color:#333333; text-align:justify; vertical-align:middle;}
+#page #main #about #description::selection{background:#333333; color:#336ca6;}
+#page #main #about #description::-moz-selection{background:#333333; color:#336ca6;}
+#page #main #about #description a{color:#555555;}
+#page #main #intro{width:35%; height:auto; padding:10px; text-align:center; display:inline-block; vertical-align:middle;}
+#page #main #intro video{width:100%; height:auto; text-align:center;}
+#main #products{width:auto; height:auto; padding:10px; text-align:center; vertical-align:top;}
+#main #products table{width:100%; height:auto; padding:0; text-align:center; vertical-align:middle;}
+#main #products .preview{width:30%; height:auto; padding:10px;}
+#main #products .preview img{width:65%; height:auto;}
+#main #products .name{width:20%; height:auto; padding:10px; color:#333333; font-family:'Open Sans'; font-size:18px;}
+#main #products .description{width:20%; height:auto; padding:10px; text-align:justify; color:#555555; font-family:'Open Sans'; font-size:15px;}
+#main #products .price{width:10%; height:auto; padding:10px;}
+#main #products .cart{width:20%; height:auto; padding:20px 10px; background-color:#336ca6; color:#ffffff; font-family:'Open Sans'; font-size:15px; text-align:center; vertical-align:middle; display:inline-block;}
+#main #products .cart .cartappend{width:auto; height:auto; padding:10px; background-color:#336ca6;}
+#main #products .cart .cartappend img{width:50%; height:auto; background-color:#336ca6;}
+#main #account{width:auto; height:auto; padding:10px; background-color:#ffffff; text-align:center; vertical-align:top;}
+#main #account form{margin:0; padding:0px 10px;}
+#main #account label{width:150px; height:auto; padding:5; font-family:'Open Sans'; font-size:15px; text-align:left; display:inline-block;}
+#main #account .title{width:auto; height:auto; padding:10px; color:#333333; font-family:'Open Sans'; font-size:18px; border-bottom:1px solid #bbbbbb;}
+#main #account #login{width:45%; height:auto; padding:10px; border:1px solid #dddddd; border-radius:5px; display:inline-block; vertical-align:top;}
+#main #account #register{margin-left:10px; width:45%; height:auto; padding:10px; border:1px solid #dddddd; border-radius:5px; display:inline-block; vertical-align:top;}
+#main #account .accountfield{margin-top:20px; width:auto; height:auto; padding:5px; color:#333333; font-family:'Open Sans'; font-size:15px; border:none; border:2px solid #dddddd; display:inline-block; -webkit-transition:border 500ms ease-out; -moz-transition:border 500ms ease-out; -o-transition:border 500ms ease-out; transition:border 500ms ease-out;}
+#main #account .accountfield:hover{border:none; border:2px solid #aaaaaa;}
+#main #account .accountfield:focus{border:none; border:2px solid #336ca6;}
+#main #account .accountfield:invalid{border:none; border:2px solid #a81111;}
+#main #account .accountsubmit{margin-top:30px; width:auto; height:auto; padding:10px 20px; background-color:#ffffff; color:#555555; font-family:'Open Sans'; font-weight:1000; font-size:15px; border:none; border:2px solid #dddddd; text-align:center; border-radius:100px; -webkit-transition: padding 500ms ease-out; -moz-transition: padding 500ms ease-out; -o-transition: padding 500ms ease-out; transition: padding 500ms ease-out;}
+#main #account .accountsubmit:hover{padding:10px 30px; color:#333333; border:2px solid #555555;}
+#main #account .accountsubmit:active{padding:10px; background-color:#336ca6; color:#ffffff;}
+#main #basket{width:auto; height:auto; padding:10px; text-align:center;}
+#main #basket #basketitems{margin:10px 10%; width:auto; height:auto; padding:10px; border:1px solid #bbbbbb; border-radius:10px;}
+#main #basket #basketitems #title{width:auto; height:auto; padding:10px; font-family:'Open Sans'; font-weight:400; font-size:18px; color:#333333; text-align:center;}
+#main #basket #emptybasket{width:auto; height:auto; padding:10px; color:#336ca6; font-family:'Open Sans'; font-size:25px; text-align:center;}
+#main #basket table{margin:0; width:100%; height:auto; padding:0; text-align:center;}
+#main #basket #basketitems tr th{width:auto; height:auto; padding:10px 5px; background-color:rgba(51,108,166,0.9); color:#ffffff; text-align:center;}
+#main #basket #basketitems tr{width:auto; height:auto; padding:10px; background-color:rgba(255,255,255,1);}
+#main #basket #basketitems tr:nth-child(odd){background-color:rgba(51, 108, 166, 0.2);}
+#main #basket #basketitems tr .preview{width:30%; height:auto; padding:10px; text-align:center;}
+#main #basket #basketitems tr .preview img{width:75%; height:auto;}
+#main #basket #basketitems tr .name{width:20%; height:auto; padding:10px; color:#333333; font-family:'Open Sans'; font-size:15px;}
+#main #basket #basketitems tr .price{width:10%; height:auto; padding:10px; color:#333333; font-family:'Open Sans'; font-size:15px;}
+#main #basket #basketitems tr .quantity{width:20%; height:auto; text-align:center;}
+#main #basket #basketitems tr .quantity .field{width:30px; height:auto; padding:5px; font-family:'Open Sans'; font-size:8px;}
+#main #basket #basketitems tr .quantity .update{padding:5px; background-color:#336ca6; color:#ffffff; font-family:'Open Sans'; font-size:8px; border:none;}
+#main #basket #basketitems tr .total{width:20%; height:auto; padding:5px; background-color:rgba(0,0,0,0.3);}
+#main #basket #basketitems #lastrow{background-color:rgba(0,0,0,0.1); border:1px solid rgba(0,0,0,0.5);}
+#main #basket #basketitems #lastrow #total{width:80%; height:auto; padding:10px; font-family:'Open Sans'; font-size:18px; text-align:right; vertical-align:middle;}
+#main #basket #basketitems #lastrow #totalsum{width:20%; height:auto; padding:10px; font-family:'Open Sans'; font-size:18px; text-align:center; vertical-align:middle;}
+
+#main #basket #basketbuttons{width:auto; height:auto; padding:20px 10px; text-align:right;}
+#main #basket #basketbuttons #basketclear{width:auto; height:auto; padding:10px; background-color:#ea3131; color:#ffffff; font-family:'Open Sans'; font-size:15px; border:none; border-radius:10px; filter: alpha(opacity=100); opacity:100; -webkit-transition:opacity 250ms ease-out; -moz-transition:opacity 250ms ease-out; -o-transition:opacity 250ms ease-out; transition:opacity 250ms ease-out;}
+#main #basket #basketbuttons #basketclear:hover{filter: alpha(opacity=70); opacity:0.7;}
+#main #basket #basketbuttons #basketclear:active{filter: alpha(opacity=90); opacity:0.9;}
+#main #basket #basketbuttons #basketorder{width:auto; height:auto; padding:10px; background-color:#336ca6; color:#ffffff; font-family:'Open Sans'; font-size:15px; border:none; border-radius:10px; filter: alpha(opacity=100); opacity:100; -webkit-transition:opacity 250ms ease-out; -moz-transition:opacity 250ms ease-out; -o-transition:opacity 250ms ease-out; transition:opacity 250ms ease-out;}
+#main #basket #basketbuttons #basketorder:hover{filter: alpha(opacity=70); opacity:0.7;}
+#main #basket #basketbuttons #basketorder:active{filter: alpha(opacity=90); opacity:0.9;}
+
+#main #fullorder{width:auto; height:auto; padding:10px; text-align:center;}
+#main #fullorder #orderitems{margin:10px 15%; width:auto; height:auto; padding:10px;}
+#main #fullorder #orderitems .orderitem{width:auto; height:auto; padding:10px; border-bottom:1px solid #dddddd;}
+#main #fullorder #orderitems .orderitem .quantity{width:30%; height:auto; text-align:center; display:inline-block;}
+#main #fullorder #orderitems .orderitem .name{width:30%; height:auto; padding:10px; color:#333333; font-family:'Open Sans'; font-size:15px; display:inline-block;}
+#main #fullorder #orderitems .orderitem .price{width:30%; height:auto; padding:10px; color:#333333; font-family:'Open Sans'; font-size:15px; display:inline-block;}
+#main #fullorder #subtotal{width:auto; height:auto; padding:10px; background-color:rgba(51, 108, 166, 0.2); font-family:'Open Sans'; font-weight:1000; font-size:15px; border-bottom:1px solid #333333;}
+#main #fullorder #vat{width:auto; height:auto; padding:10px; background-color:rgba(51, 108, 166, 0.2); font-family:'Open Sans'; font-weight:1000; font-size:15px; border-bottom:1px solid #333333;}
+#main #fullorder #total{width:auto; height:auto; padding:10px; background-color:rgba(51, 108, 166, 0.2); font-family:'Open Sans'; font-weight:1000; font-size:15px;}
+#main #fullorder #orderbuttons{width:auto; height:auto; padding:20px 30px; text-align:right;}
+#main #fullorder #orderbuttons #confirm{width:auto; height:auto; padding:10px; background-color:#ea3131; color:#ffffff; font-family:'Open Sans'; font-size:15px; border:none; border-radius:10px; filter: alpha(opacity=100); opacity:100; -webkit-transition:opacity 250ms ease-out; -moz-transition:opacity 250ms ease-out; -o-transition:opacity 250ms ease-out; transition:opacity 250ms ease-out;}
+#main #fullorder #orderbuttons #confirm:hover{filter: alpha(opacity=70); opacity:0.7;}
+#main #fullorder #orderbuttons #confirm:active{filter: alpha(opacity=90); opacity:0.9;}
+#main #fullorder #orderbuttons #return{width:auto; height:auto; padding:10px; background-color:#336ca6; color:#ffffff; font-family:'Open Sans'; font-size:15px; border:none; border-radius:10px; filter: alpha(opacity=100); opacity:100; -webkit-transition:opacity 250ms ease-out; -moz-transition:opacity 250ms ease-out; -o-transition:opacity 250ms ease-out; transition:opacity 250ms ease-out;}
+#main #fullorder #orderbuttons #return:hover{filter: alpha(opacity=70); opacity:0.7;}
+#main #fullorder #orderbuttons #return:active{filter: alpha(opacity=90); opacity:0.9;}
+#page #footer{width:auto; height:auto; padding:10px; background-color:rgba(0,0,0,0.9); color:#ffffff; font-family:'Open Sans'; font-size:15px; text-align:center;}
+#page #footer a{padding:5px; color:#336ca6;}
+#page #logout{width:auto; height:auto; padding:10px; background-color:rgba(255,0,0,0.7); color:#ffffff; font-family:'Open Sans'; font-size:15px; text-align:center;}
+#page #logout a{padding:5px; color:#ffffff;}

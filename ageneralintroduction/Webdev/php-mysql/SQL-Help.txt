@@ -1,0 +1,17 @@
+SQL-Help:
+
+You must create the following table with the EXACT name of the table and it's fields.
+-----
+Table name - basicinfo
+Field names:
+	fieldid INT/auto_increment/NOT NULL/PRIMARY KEY
+	fname TEXT/NOT NULL
+	sname TEXT/NOT NULL
+	email TEXT/NOT NULL
+-----
+
+The following are some security measures:
+	mysql_real_escape_string(VARIABLE) -  This prevents users from typing in MySQL queries in to a text field
+	md5(VARIABLE) - One way encryption for security, very useful for passwords
+	htmlspecialchars(VARIABLE) - Strips a string of all '<' and '>' to prevent users from adding HTML code to the DB
+(NOTE: The VARIABLE should be replaced with an actual set variable e.g. "md5($fname);")
