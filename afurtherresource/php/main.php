@@ -1,13 +1,6 @@
 <?php
 if(session_status() == PHP_SESSION_NONE){session_start();} // Start session if one hasn't been created yet.
-function connect(){ // Connection script to initialize a connect whenever one is needed (to improve security)
-    $hostname = "localhost"; // Hostname/Servername
-    $username = "rclms1"; // Username
-    $password = "ZFRpv5Wkk76P"; // Password
-    $dbname = "msweb"; // Database name
-    $connector = mysqli_connect($hostname, $username, $password, $dbname); // Create a connection
-    return $connector; // Return the connector method
-}
+require("dbconn.php");
 
 
 function userRegister($regFullname,$regEmail,$regPass,$regPostcode){
